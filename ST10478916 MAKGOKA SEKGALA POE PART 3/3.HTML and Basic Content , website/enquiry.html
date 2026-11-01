@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get a Quote | Urban Spark Electrical</title>
+  <meta name="description" content="Request an electrical service quotation from Urban Spark Electrical.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header__inner">
+      <h1>Urban Spark Electrical</h1>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="enquiry.html" aria-current="page">Get a Quote</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h2>Request a Quote</h2>
+    <p>Complete the form below and provide details about the electrical work you require.</p>
+
+    <form id="quote-form" action="#" method="post">
+      <p>
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" required>
+      </p>
+      <p>
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" required>
+      </p>
+      <p>
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" required>
+      </p>
+      <p>
+        <label for="service">Type of Service:</label><br>
+        <select id="service" name="service" required>
+          <option value="">-- Select a service --</option>
+          <option value="residential">Residential Electrical</option>
+          <option value="commercial">Commercial Electrical</option>
+          <option value="solar">Solar Installation</option>
+          <option value="backup">Backup Power</option>
+          <option value="maintenance">Electrical Maintenance</option>
+        </select>
+      </p>
+      <p>
+        <label for="message">Brief Description of the Job:</label><br>
+        <textarea id="message" name="message" rows="8" cols="40" required></textarea>
+      </p>
+      <p>
+        <label for="date">Preferred Date:</label><br>
+        <input type="date" id="date" name="date">
+      </p>
+      <p>
+        <input type="submit" value="Get Estimate & Prepare Email">
+        <input type="reset" value="Clear Form">
+      </p>
+      <p class="form-feedback" id="quote-feedback" role="status" aria-live="polite"></p>
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <p>Urban Spark Electrical | Johannesburg, South Africa</p>
+      <p>&copy; 2026 Urban Spark Electrical. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="js/script.js" defer></script>
+</body>
+</html>

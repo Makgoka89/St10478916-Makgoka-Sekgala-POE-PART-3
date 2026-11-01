@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Urban Spark Electrical</title>
+  <meta name="description" content="Contact Urban Spark Electrical for reliable electrical services in Johannesburg.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header__inner">
+      <h1>Urban Spark Electrical</h1>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="enquiry.html">Get a Quote</a>
+        <a href="contact.html" aria-current="page">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h2>Contact Urban Spark Electrical</h2>
+    <img src="My images/retailstore.webp" alt="Professional electrical installation team at work" width="600" height="400" sizes="(max-width: 900px) 100vw, 600px">
+
+    <section class="section">
+      <h3>Contact Details</h3>
+      <address>
+        Urban Spark Electrical<br>
+        Johannesburg, Gauteng<br>
+        South Africa<br><br>
+        Phone: <a href="tel:+27110000000">011 000 0000</a><br>
+        Email: <a href="mailto:info@urbanspark.co.za">info@urbanspark.co.za</a>
+      </address>
+    </section>
+
+    <section class="section">
+      <h3>Service Area</h3>
+      <p>We provide electrical services throughout the Johannesburg metropolitan area.</p>
+    </section>
+
+    <section class="section">
+      <h3>General Enquiry</h3>
+      <form id="contact-form" action="#" method="post">
+        <p>
+          <label for="contact-name">Name:</label><br>
+          <input type="text" id="contact-name" name="contact-name" required>
+        </p>
+        <p>
+          <label for="contact-email">Email:</label><br>
+          <input type="email" id="contact-email" name="contact-email" required>
+        </p>
+        <p>
+          <label for="contact-type">Type of message:</label>
+          <select id="contact-type" name="contact-type" required>
+            <option value="">Choose a message type</option>
+            <option>General question</option>
+            <option>Existing booking</option>
+            <option>Feedback</option>
+            <option>Other</option>
+          </select>
+        </p>
+        <p>
+          <label for="contact-message">Message:</label><br>
+          <textarea id="contact-message" name="contact-message" rows="7" cols="40" required></textarea>
+        </p>
+        <p><input type="submit" value="Prepare Email"></p>
+        <p class="form-feedback" id="contact-feedback" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <section class="section">
+      <h3>Map</h3>
+      <p>Urban Spark Electrical serves clients across Johannesburg and nearby business districts. The maps below help visitors locate the service area; the business does not publish a walk-in office address.</p>
+      <div class="map-grid">
+        <div><h4>Johannesburg</h4><iframe title="Map of Johannesburg, Gauteng" src="https://www.google.com/maps?q=Johannesburg%2C%20Gauteng%2C%20South%20Africa&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        <div><h4>Sandton service area</h4><iframe title="Map of Sandton, Johannesburg" src="https://www.google.com/maps?q=Sandton%2C%20Johannesburg%2C%20South%20Africa&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <p>Urban Spark Electrical | Johannesburg, South Africa</p>
+      <p>&copy; 2026 Urban Spark Electrical. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="js/script.js" defer></script>
+</body>
+</html>

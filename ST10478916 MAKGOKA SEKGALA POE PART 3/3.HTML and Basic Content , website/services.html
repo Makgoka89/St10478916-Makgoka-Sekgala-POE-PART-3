@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services | Urban Spark Electrical</title>
+  <meta name="description" content="Explore Urban Spark Electrical residential, commercial, solar and backup power services.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header__inner">
+      <h1>Urban Spark Electrical</h1>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="services.html" aria-current="page">Services</a>
+        <a href="enquiry.html">Get a Quote</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h2>Our Electrical Services</h2>
+    <p>We provide professional electrical solutions for residential and commercial clients.</p>
+
+    <section class="section service-search" aria-label="Search services">
+      <label for="service-search">Search or filter services</label>
+      <input type="search" id="service-search" placeholder="Try solar, repairs, backup power..." aria-describedby="search-help">
+      <p id="search-help">Type a keyword to show matching services.</p>
+      <p id="service-count" aria-live="polite">Showing all services.</p>
+    </section>
+    <div class="card-grid" id="service-list">
+      <section class="card">
+        <img src="My images/image.webp" alt="Residential electrical work by a professional electrician" width="400" height="267" sizes="(max-width: 600px) 100vw, (max-width: 900px) 50vw, 33vw">
+        <h3>Residential Electrical Services</h3>
+        <p>Electrical repairs, fault finding, new installations, lighting, switches, plugs and household electrical upgrades.</p>
+      </section>
+
+      <section class="card">
+        <img src="My images/retailstore.webp" alt="Commercial electrical installation" width="400" height="267" sizes="(max-width: 600px) 100vw, (max-width: 900px) 50vw, 33vw">
+        <h3>Commercial Electrical Services</h3>
+        <p>Electrical installations, maintenance, repairs and upgrades for offices, retail spaces and small to medium-sized businesses.</p>
+      </section>
+
+      <section class="card">
+        <img src="My images/image2.webp" alt="Solar panel installation" width="400" height="267" sizes="(max-width: 600px) 100vw, (max-width: 900px) 50vw, 33vw">
+        <h3>Solar Installation</h3>
+        <p>Solar power installation solutions designed to help homes and businesses improve energy independence.</p>
+      </section>
+
+      <section class="card">
+        <h3>Backup Power</h3>
+        <p>Backup power solutions to help keep essential electrical equipment operating during power interruptions.</p>
+      </section>
+
+      <section class="card">
+        <h3>Electrical Maintenance</h3>
+        <p>Routine inspection, maintenance and repair services to keep electrical systems safe and dependable.</p>
+      </section>
+    </div>
+
+    <p><a class="btn" href="enquiry.html">Request a Quote</a></p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <p>Urban Spark Electrical | Johannesburg, South Africa</p>
+      <p>&copy; 2026 Urban Spark Electrical. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="js/script.js" defer></script>
+</body>
+</html>
